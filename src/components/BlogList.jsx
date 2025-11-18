@@ -24,11 +24,11 @@ export default function BlogList() {
   return (
     <section className="mx-auto max-w-6xl px-6 py-6">
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-2xl font-semibold text-white">בלוג</h2>
-        <span className="text-white/60 text-sm">ebook friendly</span>
+        <h2 className="text-2xl font-semibold text-white">Blog</h2>
+        <span className="text-white/60 text-sm">ebook‑barát</span>
       </div>
       {loading ? (
-        <p className="text-white/70">טוען…</p>
+        <p className="text-white/70">Betöltés…</p>
       ) : (
         <div className="grid md:grid-cols-2 gap-6">
           {items.map((p) => (

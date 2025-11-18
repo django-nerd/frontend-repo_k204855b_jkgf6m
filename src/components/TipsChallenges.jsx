@@ -35,11 +35,11 @@ export default function TipsChallenges() {
     load();
   }, []);
 
-  if (loading) return <p className="text-white/70">טוען…</p>;
+  if (loading) return <p className="text-white/70">Betöltés…</p>;
 
   return (
     <section className="mx-auto max-w-6xl px-6 pb-10 grid md:grid-cols-2 gap-6">
-      <Section title="טיפים לאורח חיים">
+      <Section title="Életmód tippek">
         <ul className="space-y-2">
           {tips.map((t) => (
             <li key={t.id} className="flex items-start gap-3">
@@ -55,7 +55,7 @@ export default function TipsChallenges() {
         </ul>
       </Section>
 
-      <Section title="אתגרים עדינים">
+      <Section title="Finom kihívások">
         <ul className="space-y-2">
           {challenges.map((c) => (
             <li key={c.id} className="flex items-start gap-3">

@@ -20,7 +20,7 @@ export default function EbookTests() {
 
   return (
     <section className="mx-auto max-w-6xl px-6 pb-16">
-      <h2 className="text-2xl font-semibold text-white mb-4">מבחני eBook</h2>
+      <h2 className="text-2xl font-semibold text-white mb-4">E‑book tesztek</h2>
       <div className="grid md:grid-cols-2 gap-6">
         {tests.map((t) => (
           <div key={t.id} className="p-5 rounded-xl border border-white/10 bg-white/5">
@@ -30,7 +30,7 @@ export default function EbookTests() {
             )}
             {t.recommended_reads?.length > 0 && (
               <div className="mt-3">
-                <p className="text-white/70 text-sm mb-1">המלצות קריאה:</p>
+                <p className="text-white/70 text-sm mb-1">Ajánlott olvasmányok:</p>
                 <ul className="list-disc list-inside text-white/80 text-sm">
                   {t.recommended_reads.map((r) => (
                     <li key={r}>{r}</li>

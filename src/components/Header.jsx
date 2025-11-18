@@ -7,10 +7,10 @@ export default function Header() {
       <div className="relative mx-auto max-w-6xl px-6 py-14">
         <div className="text-center">
           <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white drop-shadow-[0_0_20px_rgba(255,255,255,0.25)]">
-            שבת דיגיטלית
+            Digitális Szombat
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-white/80 max-w-3xl mx-auto">
-            מרחב נקי ומודע להפסקה, נשימה ושיבה לקצב הטבעי. בלוג, מבחני eBook, טיפים לאורח חיים ואתגרים עדינים.
+            Tiszta, tudatos tér a megálláshoz, a levegővételhez és a természetes ritmushoz való visszatéréshez. Blog, e‑book tesztek, életmód tippek és finom kihívások.
           </p>
         </div>
       </div>
